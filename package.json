@@ -1,5 +1,5 @@
 {
-  "name": "react-native-notifications",
+  "name": "react-native-notifications-channels",
   "version": "3.3.4",
   "description": "Advanced Push Notifications (Silent, interactive notifications) for iOS & Android",
   "author": "Lidan Hifi <lidan.hifi@gmail.com>",
@@ -22,7 +22,7 @@
   "main": "lib/dist/index.js",
   "typings": "lib/dist/index.d.ts",
   "scripts": {
-    "build": "rm -rf ./lib/dist && tsc",
+    "build": "rm -rf ./lib/dist && npx tsc",
     "prestart": "npm run build",
     "pretest-js": "npm run build",
     "pretest-unit-ios": "npm run build",
